@@ -1,11 +1,6 @@
 const byteSize = (str) => {
   // write your code here
-	if(str="")
-	{
-		return 0
-	}
-	let arr=str.split("")
-	return arr.length
+	return new Blob([str]).size
 };
 
 // Do not change the code below
